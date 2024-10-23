@@ -1,0 +1,13 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "0.0.0",
+  "description": "typescirpt-boilerplate",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node --watch ./src/server.ts",
+    "build": "tsc",
+    "start": "node ./dist/server.js"
+  },
+  "author": "Talal Abuzinadah",
+  "license": "ISC"
+}
