@@ -2,12 +2,18 @@
   "name": "typescript-boilerplate",
   "version": "0.0.0",
   "description": "typescirpt-boilerplate",
-  "main": "dist/server.js",
+  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
-    "dev": "ts-node --watch ./src/server.ts",
+    "dev": "ts-node --watch ./src/index.ts",
     "build": "tsc",
-    "start": "node ./dist/server.js"
+    "start": "node ./dist/index.js"
   },
   "author": "Talal Abuzinadah",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
 }
